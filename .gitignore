@@ -1,3 +1,2 @@
 *.csv
-annoy_index
-annoy_index.mapping
+models/
