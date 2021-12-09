@@ -1,6 +1,6 @@
 # CS410 Final Project: Improved Media Content Search
-University of Illinois Urbana-Champaign, Fall 2021
-Professor ChengXiang Zhai
+University of Illinois Urbana-Champaign, Fall 2021  
+Professor ChengXiang Zhai  
 Team "Bae Area": Brayden Turner and Joshua Smith
 
 ## Installation
