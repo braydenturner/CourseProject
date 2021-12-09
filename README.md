@@ -8,6 +8,10 @@ Improved Media (Music) Content Search (IMCS) runs via an interactive Jupyter Not
 
 To run queries without building a model, we have a prebuilt mapping and index file (annoy_index_512_20_trees and annoy_index_512_20_trees.mapping respectively) here https://uofi.app.box.com/folder/151778821345?s=9wpb3x3x6twgbqq400c9eb1b001ju2m8. Once you have the files downloaded (they are quite large), add them to the same folder as the jupyter notebooks in this project. The simplified notebook can be used which presents a completed [Annoy](https://github.com/spotify/annoy) index and mapping/ data model which can be used to run sample queries. This also uses interactive ipywidgets for single queries. This simplified application uses [AppMode](https://github.com/oschuett/appmode), an easy-to-install open source Jupyter extension to run a notebook as a web application.
 
+## Running the Application
+
+To run the model, download the annoy index and mapping file to the same directory as InteractiveLyricSearch.ipynb, then run the notebook. Ensure that the AppMode extension is running in the notebook to execute it as a web app.
+
 ## Background
 We’ve all tried to remember a song but all we have is a rough description of what the song is about or one line of a lyric we managed to catch. Many search tools for music and movies are limited to metadata such as titles, artist, actors, but not the general sentiment of lyrics and content. The goal is to return a ranked list of songs that fits the description or lyric given. This can also be extended to add tags to content like “Song from Super Bowl 40 Halftime” or “Rolling Stone top 10 movies list” to enhance descriptive search.
 
