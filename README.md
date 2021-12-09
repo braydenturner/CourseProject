@@ -15,3 +15,5 @@ We’ve all tried to remember a song but all we have is a rough description of w
 
 
 ## Screenshots
+Interactive search app showing results for a query:
+![interactive search example](https://github.com/braydenturner/CourseProject/blob/main/screenshots/interactive1.JPG)
