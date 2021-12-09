@@ -21,6 +21,8 @@ Once we had the csv of all the songs we scraped, we needed a way to represent th
 ### Searching For Lyrics
 To actually do the searching we figured a KNN with our vectors would be the best way to do it. Once we had all of the vectors for each line of each lyric for each song, we add them to a library called `Annoy`. This library is a KNN search built by Spotify. It allows for really fast retrieval on really large datasets. Each vector was placed in the AnnoyIndex with a key (e.g. 56) whcih corresponded to a mapping dictionary we kept of the original line and the song and artist of the line. Then for each query search, we would also turn that in to a vector and find some of the closest vectors.
 
+## Evaluation
+Simple evaluation of the results was done on a sample size of 10 queries, with 10 results per query using Y/N for relevance judgements. The evaluation record can be found in the repo under evaluations. They are provided in HTML (download to open) or as an Excel spreadsheet.
 
 ## Screenshots
 Interactive search app showing results for a query:
