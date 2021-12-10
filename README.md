@@ -10,7 +10,7 @@ To run queries without building a model, we have a prebuilt mapping and index fi
 
 ## Running the Application
 
-To run the model, download the annoy index and mapping file to the same directory as InteractiveLyricSearch.ipynb, then run the notebook. Ensure that the AppMode extension is running in the notebook to execute it as a web app.
+To run the model, make sure the annoy index and mapping file are in the same directory as InteractiveLyricSearch.ipynb, then run the notebook. Ensure that the AppMode extension is running in the notebook to execute it as a web app.
 
 ## Background
 We’ve all tried to remember a song but all we have is a rough description of what the song is about or one line of a lyric we managed to catch. Many search tools for music and movies are limited to metadata such as titles, artist, actors, but not the general sentiment of lyrics and content. The goal is to return a ranked list of songs that fits the description or lyric given. This can also be extended to add tags to content like “Song from Super Bowl 40 Halftime” or “Rolling Stone top 10 movies list” to enhance descriptive search.
